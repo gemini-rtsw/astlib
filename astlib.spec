@@ -26,8 +26,8 @@ Source0: %{name}-%{version}.tar.gz
 ExclusiveArch: %{arch}
 Prefix: %{_prefix}
 ## You may specify dependencies here
-BuildRequires: epics-base-devel re2c gemini-ade
-Requires: epics-base
+BuildRequires: epics-base-devel re2c gemini-ade timelib-devel slalib-devel
+Requires: epics-base timelib slalib
 ## Switch dependency checking off
 ## AutoReqProv: no
 
@@ -38,7 +38,7 @@ This is the module %{name}.
 %package devel
 Summary: %{name}-devel Package
 Group: Development/Gemini
-Requires: %{name}
+Requires: %{name} timelib-devel slalib-devel
 %description devel
 This is the module %{name}.
 
