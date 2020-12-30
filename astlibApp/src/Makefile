@@ -13,7 +13,7 @@ LIBRARY_IOC += astlib
 # xxxRecord.h will be created from xxxRecord.dbd
 #DBDINC += xxxRecord
 # install astlib.dbd into <top>/dbd
-DBD += astlib.dbd
+#DBD += astlib.dbd
 
 # specify all source files to be compiled and added to the library
 #astlib_SRCS += xxx

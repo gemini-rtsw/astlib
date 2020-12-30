@@ -1,2 +1,12 @@
+*.bak
+O.*
+db
+dbd
+bin
+data
+include
+lib
+envPaths
+.*.swp
 /configure/RELEASE.local
 /configure/CONFIG_SITE.local
