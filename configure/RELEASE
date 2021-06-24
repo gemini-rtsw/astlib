@@ -22,7 +22,6 @@
 EPICS_RELEASE=R3.15.8
 
 PRODSUPP=/gem_base/epics/support
-WORKSUPP=/home/rrojas/work/$(EPICS_RELEASE)/support
 
 TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
 
