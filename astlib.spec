@@ -19,7 +19,7 @@
 Summary: %{name} Package, a module for EPICS base
 Name: %{name}
 Version: 1.7.1
-Release: 6%{?dist}
+Release: 8%{?dist}
 License: EPICS Open License
 Group: Applications/Engineering
 Source0: %{name}-%{version}.tar.gz
@@ -80,6 +80,9 @@ rm -rf $RPM_BUILD_ROOT
    /%{_prefix}/%{name}/configure
 
 %changelog
+* Wed Jun 23 2021 Tiffany Shreves <tiffany.shreves@noirlab.edu> 1.7.1-8
+- Fix tag number 
+
 * Wed Jun 23 2021 Tiffany Shreves <tiffany.shreves@noirlab.edu> 1.7.1-6
 - Remove worksupp path
 
