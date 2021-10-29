@@ -21,10 +21,8 @@
 
 PRODSUPP=/gem_base/epics/support
 
-TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
-
-SLALIB=$(EPICS7_SUPP)/gemini/slalib
-TIMELIB=$(EPICS7_SUPP)/gemini/timelib
+SLALIB=/gem_base/epics/support/slalib
+TIMELIB=/gem_base/epics/support/timelib
 
 # If using the sequencer, point SNCSEQ at its top directory:
 #SNCSEQ=$(EPICS_BASE)/../modules/soft/seq
