@@ -1,18 +1,13 @@
 
 include:
     project: 'nsf-noirlab/gemini/rtsw/gem-ci'
-<<<<<<< HEAD
     ref: "stable/2021q4"
-=======
-    ref: master
->>>>>>> 5675494... Build for testing/2021q4:latest
     file: 
      - '/templates/gitlab-ci/templates/global-rpm-container-docker.gitlab-ci.template.yml'
      - '/templates/gitlab-ci/templates/epics-base-rpm-container-docker.gitlab-ci.template.yml'
       
 
 variables:
-<<<<<<< HEAD
     # BASE_CONTAINER is only used for gemini-ade, epics-base and all ioc projects,
     # as well as for projects with a branch name which is not yet existing for one 
     # of the three: in this case, the system assumes that an extra repository,
@@ -20,10 +15,5 @@ variables:
     # be needed for an IOC. 
     # For all other projects (where essentially only an RPM is build and deployed
     # to one of the repos defined by the three/four types of projects above) this
-=======
-    # BASE_CONTAINER is only used for gemini-ade, epics-base and all ioc projects.
-    # For all other projects (where essentially only an RPM is build and deployed
-    # to one of the repos defined by the three types of projects above) this
->>>>>>> 5675494... Build for testing/2021q4:latest
     # setting is derived from the branch name
     BASE_CONTAINER: "registry.gitlab.com/nsf-noirlab/gemini/rtsw/common/gemini-ade/stable:latest"
