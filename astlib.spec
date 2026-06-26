@@ -32,9 +32,9 @@ BuildRequires: re2c
 BuildRequires: gemini-ade
 BuildRequires: timelib-devel = 2.1.4-3.git.a504360%{?dist}
 BuildRequires: slalib-devel = 1.9.7-6.git.54d124d%{?dist}
-Requires: epics-base = 7.0.7-0.git.f9e3717%{?dist}
-Requires: timelib = 2.1.4-3.git.a504360%{?dist}
-Requires: slalib = 1.9.7-6.git.54d124d%{?dist}
+Requires: epics-base
+Requires: timelib
+Requires: slalib
 ## Switch dependency checking off
 ## AutoReqProv: no
 
@@ -46,8 +46,8 @@ This is the module %{name}.
 Summary: %{name}-devel Package
 Group: Development/Gemini
 Requires: %{name}
-Requires: timelib-devel = 2.1.4-3.git.a504360%{?dist}
-Requires: slalib-devel = 1.9.7-6.git.54d124d%{?dist}
+Requires: timelib-devel
+Requires: slalib-devel
 %description devel
 This is the module %{name}.
 
