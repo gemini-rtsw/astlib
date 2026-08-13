@@ -27,11 +27,11 @@ Source0: %{name}-%{version}.tar.gz
 ExclusiveArch: %{arch}
 Prefix: %{_prefix}
 ## You may specify dependencies here
-BuildRequires: epics-base-devel = 7.0.7-0.git.f9e3717%{?dist}
+BuildRequires: epics-base-devel = 7.0.7-0.git.054b1d4%{?dist}
 BuildRequires: re2c
 BuildRequires: gemini-ade
-BuildRequires: timelib-devel = 2.1.4-3.git.a504360%{?dist}
-BuildRequires: slalib-devel = 1.9.7-6.git.54d124d%{?dist}
+BuildRequires: timelib-devel = 2.1.4-3.git.f226da7%{?dist}
+BuildRequires: slalib-devel = 1.9.7-6.git.284ff73%{?dist}
 ## Switch dependency checking off
 ## AutoReqProv: no
 
